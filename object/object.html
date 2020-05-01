@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+
+	var a ={
+
+    fname : 'vikas',
+    lname : 'jain',
+    age :  23,
+    email: 'jainvikas@gmail.com',
+    favMovies : ['dhoom', 'sholay' ,'Hum'], //object array
+
+    //ek or object ke andar object  //
+    living : {
+
+    	'city'  : 'Gwalior',
+    	'country' : 'India'
+    },
+
+
+
+    salary :function(){   //function
+
+    	return 25000;
+    },
+
+    fullname : function(){
+
+    	return this.fname + " " + this.lname;  //(var a ke liye this use)
+    }
+
+	}
+
+
+
+	// document.write(a.age);
+	// document.write(a.favMovies);
+	// document.write(a.favMovies[1]);
+	// document.write(a.salary());
+	 document.write(a.fullname());
+	// document.write(a.living.city);
+
+	console.log(a);
+	//console.log(a.age);
+
+
+
+		
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
